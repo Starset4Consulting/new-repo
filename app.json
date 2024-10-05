@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SurveyManagementApp",
+    "slug": "SurveyManagementApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/ken.png",
+    "entryPoint": "./index.js",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sonjishashank.SurveyManagementApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a1cb16c-0566-493c-986b-bd24aa47565b"
+      }
+    }
+  }
+}
